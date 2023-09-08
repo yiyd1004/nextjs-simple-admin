@@ -20,7 +20,7 @@ function ChartBox(props: Props) {
             <div className="flex flex-[3_1_0%] flex-col justify-between">
                 <div className="flex items-center gap-2.5 text-sm">
                     <Image
-                        src={`/assets/${props.icon}`}
+                        src={`/nextjs-simple-admin/assets/${props.icon}`}
                         width={20}
                         height={20}
                         alt="data icon"

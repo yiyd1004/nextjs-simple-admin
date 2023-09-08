@@ -1,6 +1,6 @@
 export const chartBoxUser = {
     color: "#8884d8",
-    icon: "/userIcon.svg",
+    icon: "/nextjs-simple-admin/userIcon.svg",
     title: "Total Users",
     number: "11.238",
     dataKey: "users",
@@ -18,7 +18,7 @@ export const chartBoxUser = {
 
 export const chartBoxProduct = {
     color: "skyblue",
-    icon: "/productIcon.svg",
+    icon: "/nextjs-simple-admin/productIcon.svg",
     title: "Total Products",
     number: "238",
     dataKey: "products",
@@ -35,7 +35,7 @@ export const chartBoxProduct = {
 };
 export const chartBoxRevenue = {
     color: "teal",
-    icon: "/revenueIcon.svg",
+    icon: "/nextjs-simple-admin/revenueIcon.svg",
     title: "Total Revenue",
     number: "$56.432",
     dataKey: "revenue",
@@ -52,7 +52,7 @@ export const chartBoxRevenue = {
 };
 export const chartBoxConversion = {
     color: "gold",
-    icon: "/conversionIcon.svg",
+    icon: "/nextjs-simple-admin/conversionIcon.svg",
     title: "Total Ratio",
     number: "2.6",
     dataKey: "ratio",

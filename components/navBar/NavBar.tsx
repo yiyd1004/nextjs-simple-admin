@@ -5,7 +5,7 @@ const NavBar = () => {
         <nav id="nav" className="w-full flex p-5 items-center justify-between">
             <div className="flex items-center font-bold gap-2.5">
                 <Image
-                    src="/assets/logo.svg"
+                    src="/nextjs-simple-admin/assets/logo.svg"
                     width={30}
                     height={30}
                     alt="logo"
@@ -14,26 +14,26 @@ const NavBar = () => {
             </div>
             <div className="flex items-center gap-5">
                 <Image
-                    src="/assets/search.svg"
+                    src="/nextjs-simple-admin/assets/search.svg"
                     width={20}
                     height={20}
                     alt="search icon"
                 />
                 <Image
-                    src="/assets/app.svg"
+                    src="/nextjs-simple-admin/assets/app.svg"
                     width={20}
                     height={20}
                     alt="app icon"
                 />
                 <Image
-                    src="/assets/expand.svg"
+                    src="/nextjs-simple-admin/assets/expand.svg"
                     width={20}
                     height={20}
                     alt="expand icon"
                 />
                 <div className="relative flex items-center">
                     <Image
-                        src="/assets/notifications.svg"
+                        src="/nextjs-simple-admin/assets/notifications.svg"
                         width={20}
                         height={20}
                         alt="noti icon"
@@ -44,7 +44,7 @@ const NavBar = () => {
                 </div>
                 <div className="flex items-center gap-2.5">
                     <Image
-                        src="/assets/nav-user.svg"
+                        src="/nextjs-simple-admin/assets/nav-user.svg"
                         width={26}
                         height={26}
                         alt="user icon"
@@ -52,7 +52,7 @@ const NavBar = () => {
                     <span>Dave</span>
                 </div>
                 <Image
-                    src="/assets/settings.svg"
+                    src="/nextjs-simple-admin/assets/settings.svg"
                     width={20}
                     height={20}
                     alt="settings icon"

@@ -24,7 +24,7 @@ const Menu = () => {
                             className={`${listItemStyle}`}
                         >
                             <Image
-                                src={`/assets/${item.icon}`}
+                                src={`/nextjs-simple-admin/assets/${item.icon}`}
                                 width={20}
                                 height={20}
                                 alt="home icon"

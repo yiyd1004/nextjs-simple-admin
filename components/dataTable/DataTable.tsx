@@ -23,7 +23,7 @@ function DataTable(props: Props) {
                     {props.slug !== "orders" ? (
                         <Link href={`/${props.slug}/${params.row.id}`}>
                             <Image
-                                src="/assets/view.svg"
+                                src="/nextjs-simple-admin/assets/view.svg"
                                 width={20}
                                 height={20}
                                 alt=""
@@ -41,7 +41,7 @@ function DataTable(props: Props) {
 
                     <div onClick={() => handleDelete(params.row.id)}>
                         <Image
-                            src="/assets/delete.svg"
+                            src="/nextjs-simple-admin/assets/delete.svg"
                             width={20}
                             height={20}
                             alt=""

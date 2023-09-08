@@ -14,7 +14,7 @@ const columns: GridColDef[] = [
         renderCell: (params) => {
             return (
                 <Image
-                    src={params.row.img || "/noavatar.png"}
+                    src={params.row.img || "/nextjs-simple-admin/noavatar.png"}
                     width={30}
                     height={30}
                     alt=""
