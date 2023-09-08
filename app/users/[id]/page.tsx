@@ -1,5 +1,3 @@
-"use client";
-
 import Single from "@/components/single/Single";
 import { singleUser } from "@/data/users";
 

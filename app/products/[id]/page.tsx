@@ -1,5 +1,3 @@
-"use client";
-
 import Single from "@/components/single/Single";
 import { singleProduct } from "@/data/product";
 
@@ -12,7 +10,7 @@ const Product = ({ params }: { params: { id: string } }) => {
 };
 
 export const dynamicParams = false;
-export async function generateStaticParams() {
+export function generateStaticParams() {
     const params = [];
 
     for (let i = 1; i <= 10; i++) {
